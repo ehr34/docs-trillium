@@ -25,10 +25,9 @@ Library’s utilizing FOLIO can employ an external knowledge base, like EBSCO, o
 The permissions listed below allow you to interact with the Agreements app and determine what you can or cannot do within the app. You can assign permissions to users in the Users app. If none of these permissions are assigned to a user, they are unable to see the Agreements app or any related information.
 
 
+## Permissions
 
 The following permissions are applicable to all libraries using the Agreements app:
-
-
 
 *   **Agreements: Search & view agreements.** This permission allows the user to search and view existing agreements. It also allows the user to see and access the Agreement app in the FOLIO interface.
 *   **Agreements: Edit agreements.** This permission allows the user to edit agreements, including the ability to add and edit agreement lines; to add and edit documents; and to view, add and edit tags on an agreement. It also grants all permissions included in "Agreements: Search & view agreements.”
@@ -37,8 +36,6 @@ The following permissions are applicable to all libraries using the Agreements a
 
 The following permissions are only applicable if your library is using the internal KB:
 
-
-
 *   **Agreements: Search & view e-resources.** This permission allows the user to search and view e-resources (packages and titles in those packages) in the internal KB. This includes the permission to see and access the Agreements app in the FOLIO interface.
 *   **Agreements: Edit e-resources.** This permission allows the user to edit the e-resources. It also grants all permissions included in "Agreements: Search & view e-resources."
 *   **Agreements: Search & view platforms.** This permission allows the user to search and view platforms in the internal KB. This includes the permission to see and access the Agreement app in the FOLIO interface.
@@ -46,11 +43,10 @@ The following permissions are only applicable if your library is using the inter
 
 If you want eUsage data in an agreement record, you also need to have the following eUsage permission:
 
-
-
 *   **eUsage reports: charts may be viewed.** This permission adds an accordion to the Agreement record in the Agreement app that displays charts and graphs of eUsage data for the titles related to an agreement.
 
 
+### Capability sets for Agreements
 
 The Capability sets listed below allow you to interact with the Agreements app and determine what you can or cannot do within the app. You can assign Capability sets to users in the section **Authorization roles** of the Settings app. 
 
@@ -67,7 +63,7 @@ The Capability sets listed below allow you to interact with the Agreements app a
 |eUsage reports: charts may be viewed |Plugin-Eusage-Reports Charts (plugin-eusage-reports.view-charts)|data      |app-erm-usage-2.0.4        |view   |
 
 
-##### Capability sets for eUsage Reports (Plugin)
+### Capability sets for eUsage Reports (Plugin)
 
 |Type      |Resource                           |Action   |Description                                                                                     |
 |:---------|:----------------------------------|:--------|:-----------------------------------------------------------------------------------------------|
@@ -85,7 +81,7 @@ Please note:
 * To activate the comparison module in eUsage in the UI, you must set the **UI-Erm-Comparisons Jobs** capability set.
 
 
-##### Capabilities for eUsage Reports (Plugin)
+### Capabilities for eUsage Reports (Plugin)
 
 |Type      |Resource                                  |Action   |Description                                             |
 |:---------|:-----------------------------------------|:--------|:-------------------------------------------------------|
